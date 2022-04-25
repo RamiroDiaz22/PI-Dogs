@@ -1,0 +1,140 @@
+a:link, a:visited a:active{
+    text-decoration: none;
+} 
+
+.contenedor_searchBar--details{
+    margin: 0 10px;
+}
+
+.details_links--home{
+    padding-top: 5px;
+}
+
+.contenedor-Details{
+    margin: auto;
+    width: 60%;
+    height: 70%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: linear-gradient(#e09f3e, #dba657);
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: -8px 10px 8px rgb(0, 0, 0);;
+}
+
+.details_name{
+    color: #fff;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    display: block ruby;
+}
+
+.details_name_icon{
+    color: #fff;
+    margin: 10px 0 0 7px;
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow(2px 2px 5px rgb(0, 0, 0));
+}
+
+/* .details_contenedor_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+} */
+
+.img-Details{
+    width: 300px;
+    height: 300px;
+    margin: 3px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.contenido-Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1c0d02;
+    font-weight: 500;
+    left: 0;
+    width: 40%;
+}
+
+.details_items{
+    margin: 10px 0;
+    width: 100%;
+}
+
+.details_subtitle{
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.details_icons{
+    margin: 4px 0 0 6px;
+}
+
+.details_link{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    padding-right: 5px;
+    position: relative;
+  }
+
+  .details_link::after{
+    content: "";
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.details_link:hover::after{
+    transform: scaleX(1);
+}
+
+.details_link::before{
+  margin-left: 3px;
+  content: "";
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 35px;
+  background: #000;
+  transform: scaleY(0);
+  transition: transform .3s ease-in-out;
+}
+
+.details_link:hover::before{
+  transform: scaleY(1);
+}
+
+.details_text{
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #1c0d02;
+  }
+
+  .details_home{
+      width: 100px;
+  }
+
+  .details_create{
+      width: 180px;
+  }

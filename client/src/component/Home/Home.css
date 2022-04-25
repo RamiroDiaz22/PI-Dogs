@@ -1,0 +1,9 @@
+.card-Home{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.nav-Home{
+    padding: 0 10px;
+}
