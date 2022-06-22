@@ -7,7 +7,7 @@ export default function Card({ name, image, temperament, weight, id}) {
     return(
         <div className='card_contenedor'>
             <Link to={`/${id}`}>
-                <img src={image} alt="Img not fount" className='card_image' width="200px" height="250px"/>
+                <img src={image} alt="Img not found" className='card_image' width="200px" height="250px"/>
                 <div className="card_contenido">
                     <h3 className='card_name'>{name}</h3>
                     <div className='card_data'>
