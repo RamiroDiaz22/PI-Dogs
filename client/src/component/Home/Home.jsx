@@ -35,15 +35,15 @@ export default function Home() {
       .catch((error) => setError(error.message));
   }, [dispatch]); // para que no se genere un loop infinito
 
-  //     if (loading) {
-  //     return (
-  //       <div className="loading-background">
-  //         <img src={Loadingbar} className='loading_icon' alt="Please wait"/>
-  //         <br />
-  //         <h3 className="loading">Loading...</h3>
-  //       </div>
-  //     );
-  //   }
+  if (loading) {
+    return (
+      <div className="loading-background">
+        <img src={Loadingbar} className="loading_icon" alt="Please wait" />
+        <br />
+        <h3 className="loading">Loading...</h3>
+      </div>
+    );
+  }
 
   return (
     <div>
