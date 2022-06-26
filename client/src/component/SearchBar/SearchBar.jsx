@@ -69,9 +69,9 @@ export default function SerchBar({ pagina, set }) {
                 onChange={handleInputChange}
               />
               <div className="searchBar_btn">
-                <input type="submit">
+                <button className="search_btn-submit">
                   <HiSearch />
-                </input>
+                </button>
               </div>
             </form>
           </div>
